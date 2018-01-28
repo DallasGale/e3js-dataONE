@@ -1,3 +1,32 @@
 body {
-  background: WHITE;
+  background: bronze;
+  font-family: 'Arial';
+  font-size: 1.3rem;
+  padding-top: 50px;
+}
+
+.xmlDataTable {
+  tr:nth-child(odd) {
+      background-color: rgba(222, 111, 444, 0.1);
+    }
+
+  td {
+    font-size: 100%;
+    padding: 20px;
+  }
+}
+
+
+.chart {
+  margin-bottom: 60px;
+  rect {
+    fill: rgba(222, 111, 444, 0.1);
+    color: navy;
+    font-weight: bold;
+    margin-bottom: 2px;
+    padding: 10px;
+  }
+  text {
+    fill: black;
+  }
 }
