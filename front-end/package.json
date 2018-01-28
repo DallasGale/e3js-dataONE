@@ -1,0 +1,47 @@
+{
+  "name": "d3-js-data-project",
+  "version": "1.0.0",
+  "description": "Using DataONE API with D3.js visualization",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "d3",
+    "dataONE"
+  ],
+  "author": "Dallas Gale",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "gulp-connect": "^5.2.0",
+    "gulp-cssmin": "^0.2.0",
+    "streamqueue": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.23.5",
+    "browserify": "^15.0.0",
+    "browserify-shim": "^3.8.14",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
